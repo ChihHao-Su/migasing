@@ -1,0 +1,102 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=16
+    os=Windows
+
+[requires]
+    expat/2.Y.Z
+    freetype/2.Y.Z
+    glew/2.Y.Z
+    glfw/3.Y.Z
+    glm/0.9.9.8
+    libxml2/2.Y.Z
+    ois/1.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=16
+    os=Windows
+    os_build=Windows
+
+[full_requires]
+    brotli/1.0.9:127af201a4cdf8111e2e08540525c245c9b3b99e
+    bzip2/1.0.8:4528437567062bbbdabe0f12323b342a14f38892
+    expat/2.2.10:127af201a4cdf8111e2e08540525c245c9b3b99e
+    freetype/2.10.4:412dc72636204b0105b06e8bdf82bea56745e97a
+    glew/2.1.0:68f42d562769a570979f5711bed91c4a9b32127a
+    glfw/3.3.2:bbccade5442fcfbbf624bac852a93d4485409c0f
+    glm/0.9.9.8:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    glu/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    libiconv/1.16:127af201a4cdf8111e2e08540525c245c9b3b99e
+    libpng/1.6.37:3144a0c6dc18aae2e8b769f92faa8398f2022a4b
+    libxml2/2.9.10:01aaa5e96f27929fb6bba2fc58f6ed7aff9db697
+    ois/1.5:127af201a4cdf8111e2e08540525c245c9b3b99e
+    opengl/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    zlib/1.2.11:127af201a4cdf8111e2e08540525c245c9b3b99e
+
+[full_options]
+    brotli:shared=True
+    bzip2:build_executable=True
+    bzip2:shared=True
+    expat:shared=True
+    freetype:shared=True
+    freetype:with_brotli=True
+    freetype:with_bzip2=True
+    freetype:with_png=True
+    freetype:with_zlib=True
+    glew:shared=True
+    glfw:shared=True
+    libiconv:shared=True
+    libpng:api_prefix=None
+    libpng:shared=True
+    libxml2:c14n=True
+    libxml2:catalog=True
+    libxml2:docbook=True
+    libxml2:ftp=True
+    libxml2:html=True
+    libxml2:http=True
+    libxml2:iconv=True
+    libxml2:icu=False
+    libxml2:include_utils=True
+    libxml2:iso8859x=True
+    libxml2:legacy=True
+    libxml2:lzma=False
+    libxml2:mem-debug=False
+    libxml2:output=True
+    libxml2:pattern=True
+    libxml2:push=True
+    libxml2:python=False
+    libxml2:reader=True
+    libxml2:regexps=True
+    libxml2:run-debug=False
+    libxml2:sax1=True
+    libxml2:schemas=True
+    libxml2:schematron=True
+    libxml2:shared=True
+    libxml2:threads=True
+    libxml2:tree=True
+    libxml2:valid=True
+    libxml2:writer=True
+    libxml2:xinclude=True
+    libxml2:xpath=True
+    libxml2:xptr=True
+    libxml2:zlib=True
+    ois:shared=True
+    zlib:minizip=False
+    zlib:shared=True
+
+[recipe_hash]
+
+
+[env]
+

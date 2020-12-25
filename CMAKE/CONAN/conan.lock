@@ -1,0 +1,144 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "brotli:shared=True\nbzip2:build_executable=True\nbzip2:shared=True\nexpat:shared=True\nfreetype:shared=True\nfreetype:with_brotli=True\nfreetype:with_bzip2=True\nfreetype:with_png=True\nfreetype:with_zlib=True\nglew:shared=True\nglfw:shared=True\nlibiconv:shared=True\nlibpng:api_prefix=None\nlibpng:shared=True\nlibxml2:c14n=True\nlibxml2:catalog=True\nlibxml2:docbook=True\nlibxml2:ftp=True\nlibxml2:html=True\nlibxml2:http=True\nlibxml2:iconv=True\nlibxml2:icu=False\nlibxml2:include_utils=True\nlibxml2:iso8859x=True\nlibxml2:legacy=True\nlibxml2:lzma=False\nlibxml2:mem-debug=False\nlibxml2:output=True\nlibxml2:pattern=True\nlibxml2:push=True\nlibxml2:python=False\nlibxml2:reader=True\nlibxml2:regexps=True\nlibxml2:run-debug=False\nlibxml2:sax1=True\nlibxml2:schemas=True\nlibxml2:schematron=True\nlibxml2:shared=True\nlibxml2:threads=True\nlibxml2:tree=True\nlibxml2:valid=True\nlibxml2:writer=True\nlibxml2:xinclude=True\nlibxml2:xpath=True\nlibxml2:xptr=True\nlibxml2:zlib=True\nois:shared=True\nzlib:minizip=False\nzlib:shared=True",
+    "requires": [
+     "1",
+     "6",
+     "8",
+     "10",
+     "11",
+     "12",
+     "13"
+    ],
+    "path": "..\\..\\conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "freetype/2.10.4",
+    "options": "shared=True\nwith_brotli=True\nwith_bzip2=True\nwith_png=True\nwith_zlib=True\nbrotli:shared=True\nbzip2:build_executable=True\nbzip2:shared=True\nlibpng:api_prefix=None\nlibpng:shared=True\nzlib:minizip=False\nzlib:shared=True",
+    "package_id": "412dc72636204b0105b06e8bdf82bea56745e97a",
+    "prev": "0",
+    "requires": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "context": "host"
+   },
+   "2": {
+    "ref": "libpng/1.6.37",
+    "options": "api_prefix=None\nshared=True\nzlib:minizip=False\nzlib:shared=True",
+    "package_id": "3144a0c6dc18aae2e8b769f92faa8398f2022a4b",
+    "prev": "0",
+    "requires": [
+     "3"
+    ],
+    "context": "host"
+   },
+   "3": {
+    "ref": "zlib/1.2.11",
+    "options": "minizip=False\nshared=True",
+    "package_id": "127af201a4cdf8111e2e08540525c245c9b3b99e",
+    "prev": "0",
+    "context": "host"
+   },
+   "4": {
+    "ref": "bzip2/1.0.8",
+    "options": "build_executable=True\nshared=True",
+    "package_id": "4528437567062bbbdabe0f12323b342a14f38892",
+    "prev": "0",
+    "context": "host"
+   },
+   "5": {
+    "ref": "brotli/1.0.9",
+    "options": "shared=True",
+    "package_id": "127af201a4cdf8111e2e08540525c245c9b3b99e",
+    "prev": "0",
+    "context": "host"
+   },
+   "6": {
+    "ref": "glfw/3.3.2",
+    "options": "shared=True",
+    "package_id": "bbccade5442fcfbbf624bac852a93d4485409c0f",
+    "prev": "0",
+    "requires": [
+     "7"
+    ],
+    "context": "host"
+   },
+   "7": {
+    "ref": "opengl/system",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "8": {
+    "ref": "glew/2.1.0",
+    "options": "shared=True",
+    "package_id": "68f42d562769a570979f5711bed91c4a9b32127a",
+    "prev": "0",
+    "requires": [
+     "7",
+     "9"
+    ],
+    "context": "host"
+   },
+   "9": {
+    "ref": "glu/system",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "requires": [
+     "7"
+    ],
+    "context": "host"
+   },
+   "10": {
+    "ref": "glm/0.9.9.8",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "11": {
+    "ref": "ois/1.5",
+    "options": "shared=True",
+    "package_id": "127af201a4cdf8111e2e08540525c245c9b3b99e",
+    "prev": "0",
+    "context": "host"
+   },
+   "12": {
+    "ref": "expat/2.2.10",
+    "options": "shared=True",
+    "package_id": "127af201a4cdf8111e2e08540525c245c9b3b99e",
+    "prev": "0",
+    "context": "host"
+   },
+   "13": {
+    "ref": "libxml2/2.9.10",
+    "options": "c14n=True\ncatalog=True\ndocbook=True\nftp=True\nhtml=True\nhttp=True\niconv=True\nicu=False\ninclude_utils=True\niso8859x=True\nlegacy=True\nlzma=False\nmem-debug=False\noutput=True\npattern=True\npush=True\npython=False\nreader=True\nregexps=True\nrun-debug=False\nsax1=True\nschemas=True\nschematron=True\nshared=True\nthreads=True\ntree=True\nvalid=True\nwriter=True\nxinclude=True\nxpath=True\nxptr=True\nzlib=True\nlibiconv:shared=True\nzlib:minizip=False\nzlib:shared=True",
+    "package_id": "01aaa5e96f27929fb6bba2fc58f6ed7aff9db697",
+    "prev": "0",
+    "requires": [
+     "3",
+     "14"
+    ],
+    "context": "host"
+   },
+   "14": {
+    "ref": "libiconv/1.16",
+    "options": "shared=True",
+    "package_id": "127af201a4cdf8111e2e08540525c245c9b3b99e",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=Visual Studio\ncompiler.runtime=MD\ncompiler.version=16\nos=Windows\nos_build=Windows\n[options]\n[build_requires]\n[env]\n"
+}

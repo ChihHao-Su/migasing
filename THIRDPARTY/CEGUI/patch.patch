@@ -1,0 +1,11 @@
+--- BUILD\CEGUI-prefix\src\CEGUI\cegui\src\CMakeLists.txt	2020-12-25 18:03:53.154048200 +0800
++++ BUILD\CEGUI-prefix\src\CEGUI\cegui\src\CMakeLists copy.txt	2020-12-25 18:04:25.589328400 +0800
+@@ -73,7 +73,7 @@ endif()
+ 
+ if (CEGUI_HAS_FREETYPE)
+     message("HAS FREETYPE!")
+-    cegui_add_dependency(${CEGUI_TARGET_NAME} FREETYPE)
++    cegui_add_dependency(${CEGUI_TARGET_NAME} FreeType)
+ endif ()
+ 
+ if (CEGUI_HAS_PCRE_REGEX)

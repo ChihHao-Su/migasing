@@ -1,0 +1,5 @@
+add_library(core SHARED system.cpp module.cpp)
+target_compile_features(core PUBLIC cxx_std_20)
+target_include_directories(core PUBLIC ${SRC_DIR} ${CMAKE_CURRENT_BINARY_DIR})
+include(GenerateExportHeader)
+generate_export_header(core)

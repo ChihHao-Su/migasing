@@ -1,0 +1,20 @@
+[requires]
+freetype/2.10.4
+glfw/3.3.2
+glew/2.1.0
+glm/0.9.9.8
+ois/1.5
+expat/2.2.10
+libxml2/2.9.10
+
+
+
+[options]
+*:shared=True
+
+[generators]
+cmake_find_package
+
+[imports]
+bin, *.dll -> ./BIN
+bin, *.dll -> ./BIN
